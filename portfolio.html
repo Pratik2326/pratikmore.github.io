@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio - FolioOne Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FolioOne
+  * Template URL: https://bootstrapmade.com/folioone-bootstrap-portfolio-website-template/
+  * Updated: Aug 23 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <img src="assets/img/logo.webp" alt="">
+      <h1 class="sitename">FolioOne</h1> 
+    </a> -->
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Journey.html">Journey</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.linkedin.com/in/pratikm0105/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/Pratik2326"><i class="bi bi-github"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <h3 class="portfolio-subtitle">Analytics in Action</h3>
+        <p>Every dataset hides a story. My portfolio highlights real-world business challenges, 
+    where data meets strategy and insights turn into measurable impact.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <!-- <li data-filter="*" class="filter-active">All</li> -->
+            <li id="filter-all" data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-strategy">Customer & Marketing</li>
+            <li data-filter=".filter-finance">Finance & Risk</li>
+            <li data-filter=".filter-operations">Operations & Supply Chain</li>
+            <li data-filter=".filter-technology">Analytics & Reporting</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/sqlp1best.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="#project-sql-retail" class="glightbox" data-glightbox="type:inline"><i class="bi bi-plus"></i></a>
+                    <a href="https://github.com/Pratik2326/SQL-Retail-Sales" target="_blank" rel="noopener noreferrer" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4> Retail Sales Analysis</h4>
+                  <p>Customer & Marketing</p>
+                  <div class="portfolio-tags">
+                    <span class= "tag"> SQL</span>
+                    <span class= "tag">MS SQL Server</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 🔹 Hidden Popup Content (called by + button) -->
+            <div id="project-sql-retail" style="display:none;">
+              <div class="project-popup">
+                <img src="assets/img/portfolio/sqlp1best.png" alt="SQL Retail Sales" class="popup-bg">
+                <div class="popup-content">
+                  <h2>Retail Sales Analytics with SQL</h2>
+                  <p>Leveraged SQL queries to transform raw retail sales data into actionable insights by segmenting performance by product category, revealing customer buying trends, and supporting data-driven marketing strategies.</p>
+                  <p><strong>Tools:</strong> SQL, MS SQL Server</p>
+                  <a href="https://github.com/Pratik2326/SQL-Retail-Sales" target="_blank" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/Ed1.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="#bike-sales-dashboard" class="glightbox" data-glightbox="type:inline"><i class="bi bi-plus"></i></a>
+                    <a href="https://github.com/Pratik2326/Bike-Sales-Analytics-Dashboard-Excel-" target="_blank" rel="noopener noreferrer" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4> Bike Sales Analytics Dashboard - Excel</h4>
+                  <p>Customer & Marketing</p>
+                  <div class="portfolio-tags">
+                    <span class= "tag"> Excel Dashboard</span>
+                    <span class= "tag">Data Visualization</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 🔹 Hidden Popup Content (called by + button) -->
+            <div id="bike-sales-dashboard" style="display:none;">
+              <div class="project-popup">
+                <img src="assets/img/portfolio/Ed1.png" alt="SQL Retail Sales" class="popup-bg">
+                <div class="popup-content">
+                  <h2>Bike-Sales-Analytics-Dashboard-Excel</h2>
+                  <p>A data-driven project analyzing customer demographics and purchasing behavior to uncover key insights into bike sales. Built an interactive Excel dashboard with pivot tables, slicers, and charts to help stakeholders understand who buys bikes and what factors drive purchase decisions.</p>
+                  <p><strong>Tools:</strong> SQL, MS SQL Server</p>
+                  <a href="https://github.com/Pratik2326/Bike-Sales-Analytics-Dashboard-Excel-" target="_blank" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-operations">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/portfolio-3.webp" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/portfolio-3.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Supply Chain Optimization</h4>
+                  <p>Operations Management</p>
+                  <div class="portfolio-tags">
+                    <span>Operations</span>
+                    <span>Logistics</span>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-technology">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/portfolio-4.webp" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/portfolio-4.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Digital Transformation</h4>
+                  <p>Technology Consulting</p>
+                  <div class="portfolio-tags">
+                    <span>Technology</span>
+                    <span>Innovation</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/portfolio-5.webp" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/portfolio-5.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Market Expansion</h4>
+                  <p>Strategic Planning</p>
+                  <div class="portfolio-tags">
+                    <span>Strategy</span>
+                    <span>Growth</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/portfolio-6.webp" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/portfolio-6.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Investment Strategy</h4>
+                  <p>Financial Advisory</p>
+                  <div class="portfolio-tags">
+                    <span>Finance</span>
+                    <span>Investment</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>End Portfolio Items Container -->
+
+        </div>
+
+        <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="1">
+          <!-- <a href="#portfolio" class="btn btn-primary">View All Case Studies</a> -->
+           <a href="#portfolio" class="btn btn-primary btn-rounded" id="view-all-btn">View All Case Studies</a>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">FolioOne</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/pratikm0105/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/Pratik2326"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+    <!-- Custom Script for "View All Case Studies" -->
+  <script>
+    document.getElementById("view-all-btn").addEventListener("click", function(e) {
+      e.preventDefault(); // stop default anchor jump
+
+      // Trigger click on the "All" filter <li>
+      document.getElementById("filter-all").click();
+
+      // Smooth scroll to portfolio section
+      document.getElementById("portfolio").scrollIntoView({ behavior: "smooth" });
+
+      // Also ensure the "All" button looks active
+      document.querySelectorAll('.portfolio-filters li').forEach(el => el.classList.remove('filter-active'));
+      document.getElementById("filter-all").classList.add("filter-active");
+    });
+  </script>
+
+</body>
+
+</html>
